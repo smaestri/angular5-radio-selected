@@ -1,0 +1,11 @@
+
+<label class="container">PERSO
+  <input [ngModel]="member.isPro" value="toto" id="persoRadio" type="radio" name="myRadio" (change)="toggle()">
+  <span class="checkmark"></span>
+</label>
+<label class="container">PRO
+  <input [ngModel]="member.isPro" value="tata"  id="proRadio" type="radio" name="myRadio" (change)="toggle()">
+  <span class="checkmark"></span>
+</label>
+sma: {{member | json}}
+
